@@ -1,20 +1,24 @@
 import { Conatiner } from "./steles"
 import { Header } from "../../components/Header"
+import { Navbar } from "../../components/Navbar"
+import { Feed } from "../../components/Feed"
+
 
 export const Home = () => {
+
     return(
-        <Conatiner>
+        <>
         <Header/>
-        <div>
-            <main className="main">
-                <div className="navbar">
-                    navbar
-                </div>
-                <div className="feed">
-                    feed
-                </div>
-            </main>
-        </div>
+            <Conatiner>
+            <div className="cont">
+                <main className="main">
+                        <div className="nf">
+                            <Navbar/>
+                            <Feed/>
+                        </div>             
+                </main>
+            </div>
         </Conatiner>
+        </>
     )
 }

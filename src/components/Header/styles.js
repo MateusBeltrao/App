@@ -2,9 +2,12 @@ import styled from "styled-components";
 
 export const Conatiner = styled.div`
      .header{
-        background: red;
         width: 100%;
         position: fixed;
+        top: 0;
+        left: 0;
+        right: 0%;
+        background-color: white;
     }
 
     .toolbar{
@@ -14,4 +17,9 @@ export const Conatiner = styled.div`
         padding: 0 24px;
         justify-content: space-between;
     }
+
+    .bell{
+        margin-right: 20px;
+    }
+
 `

@@ -1,4 +1,6 @@
 import { Conatiner } from "./styles"
+import { Button } from "../Button"
+import logo1 from "../image/logo.png"
 
 export const Header = () => {
     return(
@@ -6,12 +8,15 @@ export const Header = () => {
             <header className="header"> 
                 <div className="toolbar">
                     <div>
-                        <samp>Conecta Dev</samp>
+                        <img src={logo1} height="65px"></img>
+                    </div>
+                    <div>
+
                     </div>
                 <div>
-                    <button>Novo Post</button>
-                    <samp>img1</samp>
-                    <span>img2</span>
+                    <Button boder="none" margin="0px 100px 0px 0px">NOVO POST</Button>
+                    <samp className="bell">🔔</samp>
+                    <samp>🧑‍💻</samp>
                 </div>
                 </div>
         </header>
