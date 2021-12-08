@@ -14,7 +14,7 @@ export const Home = () => {
                 <main className="main">
                         <div className="nf">
                             <Navbar/>
-                            <Feed/>
+                            <Feed></Feed>
                         </div>             
                 </main>
             </div>
