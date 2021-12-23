@@ -1,0 +1,31 @@
+const posts = [
+    {
+        id:1,
+        author:{
+            id:1,
+            name: "Albert Einstein",
+            username: 'alberteinstein',
+            avatar: <img src={Einst} width="50px"></img>,
+        },
+        title: "Criando um App do zero utilizando React.js",
+        date:"Março 14, 1879",
+        description: "Duas coisas são infinitas: o universo e a estupidez humana. Mas, em relação ao universo, ainda não tenho certeza absoluta.",
+        hashtags: "#fisica, #javascript, react, developer",
+        image: <img src={Imagem} width="100%" height="320px" />
+    },
+    {
+        id:2,
+        author:{
+            id:1,
+            name: "Marie Curie",
+            username: "mariecurie",
+            avatar: <img src={Madame} width="50px" />,
+        },
+        title: "Como migrar para React Hooks | Tips & Tricks - React.js #01",
+        date: "7 de novembro de 1867",
+        description: "A melhor vida não é a mais comprida, mas sim a mais rica em boas acções. ",
+        hashtags: "#quimica, #javascript, react, developer",
+        imagem: <img src={Mk} width="100%" height="320px"/>
+
+    }
+]
